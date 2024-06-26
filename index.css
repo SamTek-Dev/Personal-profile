@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+.pc{
+padding-top: 20px;
+background-color: rgb(51, 46, 45);
+max-width: 400px;
+border-radius: 10px;
+margin: 60px;
+margin-bottom: 50px;
+/*center horizontally*/
+  text-align: center;
+padding-bottom: 30px;
+color: white;
+}
+body{
+    background-color: rgb(43, 35, 35);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.block>*{
+ display: block;   
+}
+button{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(37, 9, 222);
+    color: white;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    color: rgb(255, 255, 255);
+}
+#des{
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+/* Ensure the container has a fixed size */
+.image_container {
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    overflow: hidden;
+    margin: 20%;
+    border-radius: 50%; /* Makes the container round */
+}
+
+/* Image should fill the container */
+.image_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire container */
+}
+#lc {
+  color: chartreuse;
+  font-family: Lucida Grande
+}
